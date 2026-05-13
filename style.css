@@ -4,3 +4,17 @@ html {
 header {
   background-color: #1d1329;
 }
+html, body {
+  color: #e2ecff;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+html a {
+  color: #e2ecff;
+  text-decoration: bold;
+}
+body a {
+  color: #6c9efc;
+  text-decoration: none;
+}
