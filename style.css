@@ -35,12 +35,12 @@ img {
 }
 /* General selection for the whole page */
 ::selection {
-  background: #3600b3; /* Background color */
-  color: #a17afa;        /* Text color */
+  background: #022e6b; /* Background color */
+  color: #0263eb;        /* Text color */
 }
 
 /* Specific to Firefox */
 ::-moz-selection {
-  background: #3600b3
-  color: #a17afa;
+  background: #022e6b;
+  color: #0263eb;
 }
