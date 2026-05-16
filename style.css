@@ -4,6 +4,9 @@ html {
 header {
   background-color: #1d1329;
 }
+/*
+--Content--
+*/
 html, body {
   color: #e2ecff;
   font-family: 'Arial', sans-serif;
@@ -17,4 +20,27 @@ html a {
 body a {
   color: #6c9efc;
   text-decoration: none;
+}
+/*
+--Selection--
+*/
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  user-select: none;
+}
+/* General selection for the whole page */
+::selection {
+  background: #3600b3; /* Background color */
+  color: #a17afa;        /* Text color */
+}
+
+/* Specific to Firefox */
+::-moz-selection {
+  background: #3600b3
+  color: #a17afa;
 }
